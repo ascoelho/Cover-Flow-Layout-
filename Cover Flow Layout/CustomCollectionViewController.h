@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomCollectionViewController.h
 //  Cover Flow Layout
 //
 //  Created by Anthony Coelho on 2016-05-19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomCollectionViewController : UICollectionViewController
 
 @end
-
