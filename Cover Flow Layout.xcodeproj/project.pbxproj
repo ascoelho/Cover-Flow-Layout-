@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43130E3F1CEE064600FFAC9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43130E3E1CEE064600FFAC9D /* main.m */; };
+		43130E421CEE064600FFAC9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43130E411CEE064600FFAC9D /* AppDelegate.m */; };
+		43130E451CEE064600FFAC9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43130E441CEE064600FFAC9D /* ViewController.m */; };
+		43130E481CEE064600FFAC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43130E461CEE064600FFAC9D /* Main.storyboard */; };
+		43130E4A1CEE064600FFAC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43130E491CEE064600FFAC9D /* Assets.xcassets */; };
+		43130E4D1CEE064600FFAC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43130E4B1CEE064600FFAC9D /* LaunchScreen.storyboard */; };
+		43130E581CEE064600FFAC9D /* Cover_Flow_LayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43130E571CEE064600FFAC9D /* Cover_Flow_LayoutTests.m */; };
+		43130E631CEE064600FFAC9D /* Cover_Flow_LayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43130E621CEE064600FFAC9D /* Cover_Flow_LayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43130E541CEE064600FFAC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43130E321CEE064600FFAC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43130E391CEE064600FFAC9D;
+			remoteInfo = "Cover Flow Layout";
+		};
+		43130E5F1CEE064600FFAC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43130E321CEE064600FFAC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43130E391CEE064600FFAC9D;
+			remoteInfo = "Cover Flow Layout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43130E3A1CEE064600FFAC9D /* Cover Flow Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cover Flow Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43130E3E1CEE064600FFAC9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43130E401CEE064600FFAC9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43130E411CEE064600FFAC9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43130E431CEE064600FFAC9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43130E441CEE064600FFAC9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43130E471CEE064600FFAC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43130E491CEE064600FFAC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43130E4C1CEE064600FFAC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43130E4E1CEE064600FFAC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43130E531CEE064600FFAC9D /* Cover Flow LayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cover Flow LayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43130E571CEE064600FFAC9D /* Cover_Flow_LayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cover_Flow_LayoutTests.m; sourceTree = "<group>"; };
+		43130E591CEE064600FFAC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43130E5E1CEE064600FFAC9D /* Cover Flow LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cover Flow LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43130E621CEE064600FFAC9D /* Cover_Flow_LayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cover_Flow_LayoutUITests.m; sourceTree = "<group>"; };
+		43130E641CEE064600FFAC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43130E371CEE064600FFAC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43130E501CEE064600FFAC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43130E5B1CEE064600FFAC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43130E311CEE064600FFAC9D = {
+			isa = PBXGroup;
+			children = (
+				43130E3C1CEE064600FFAC9D /* Cover Flow Layout */,
+				43130E561CEE064600FFAC9D /* Cover Flow LayoutTests */,
+				43130E611CEE064600FFAC9D /* Cover Flow LayoutUITests */,
+				43130E3B1CEE064600FFAC9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43130E3B1CEE064600FFAC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43130E3A1CEE064600FFAC9D /* Cover Flow Layout.app */,
+				43130E531CEE064600FFAC9D /* Cover Flow LayoutTests.xctest */,
+				43130E5E1CEE064600FFAC9D /* Cover Flow LayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43130E3C1CEE064600FFAC9D /* Cover Flow Layout */ = {
+			isa = PBXGroup;
+			children = (
+				43130E401CEE064600FFAC9D /* AppDelegate.h */,
+				43130E411CEE064600FFAC9D /* AppDelegate.m */,
+				43130E431CEE064600FFAC9D /* ViewController.h */,
+				43130E441CEE064600FFAC9D /* ViewController.m */,
+				43130E461CEE064600FFAC9D /* Main.storyboard */,
+				43130E491CEE064600FFAC9D /* Assets.xcassets */,
+				43130E4B1CEE064600FFAC9D /* LaunchScreen.storyboard */,
+				43130E4E1CEE064600FFAC9D /* Info.plist */,
+				43130E3D1CEE064600FFAC9D /* Supporting Files */,
+			);
+			path = "Cover Flow Layout";
+			sourceTree = "<group>";
+		};
+		43130E3D1CEE064600FFAC9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43130E3E1CEE064600FFAC9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43130E561CEE064600FFAC9D /* Cover Flow LayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				43130E571CEE064600FFAC9D /* Cover_Flow_LayoutTests.m */,
+				43130E591CEE064600FFAC9D /* Info.plist */,
+			);
+			path = "Cover Flow LayoutTests";
+			sourceTree = "<group>";
+		};
+		43130E611CEE064600FFAC9D /* Cover Flow LayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43130E621CEE064600FFAC9D /* Cover_Flow_LayoutUITests.m */,
+				43130E641CEE064600FFAC9D /* Info.plist */,
+			);
+			path = "Cover Flow LayoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43130E391CEE064600FFAC9D /* Cover Flow Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43130E671CEE064600FFAC9D /* Build configuration list for PBXNativeTarget "Cover Flow Layout" */;
+			buildPhases = (
+				43130E361CEE064600FFAC9D /* Sources */,
+				43130E371CEE064600FFAC9D /* Frameworks */,
+				43130E381CEE064600FFAC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cover Flow Layout";
+			productName = "Cover Flow Layout";
+			productReference = 43130E3A1CEE064600FFAC9D /* Cover Flow Layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43130E521CEE064600FFAC9D /* Cover Flow LayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43130E6A1CEE064600FFAC9D /* Build configuration list for PBXNativeTarget "Cover Flow LayoutTests" */;
+			buildPhases = (
+				43130E4F1CEE064600FFAC9D /* Sources */,
+				43130E501CEE064600FFAC9D /* Frameworks */,
+				43130E511CEE064600FFAC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43130E551CEE064600FFAC9D /* PBXTargetDependency */,
+			);
+			name = "Cover Flow LayoutTests";
+			productName = "Cover Flow LayoutTests";
+			productReference = 43130E531CEE064600FFAC9D /* Cover Flow LayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43130E5D1CEE064600FFAC9D /* Cover Flow LayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43130E6D1CEE064600FFAC9D /* Build configuration list for PBXNativeTarget "Cover Flow LayoutUITests" */;
+			buildPhases = (
+				43130E5A1CEE064600FFAC9D /* Sources */,
+				43130E5B1CEE064600FFAC9D /* Frameworks */,
+				43130E5C1CEE064600FFAC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43130E601CEE064600FFAC9D /* PBXTargetDependency */,
+			);
+			name = "Cover Flow LayoutUITests";
+			productName = "Cover Flow LayoutUITests";
+			productReference = 43130E5E1CEE064600FFAC9D /* Cover Flow LayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43130E321CEE064600FFAC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anthony Coelho";
+				TargetAttributes = {
+					43130E391CEE064600FFAC9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					43130E521CEE064600FFAC9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43130E391CEE064600FFAC9D;
+					};
+					43130E5D1CEE064600FFAC9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43130E391CEE064600FFAC9D;
+					};
+				};
+			};
+			buildConfigurationList = 43130E351CEE064600FFAC9D /* Build configuration list for PBXProject "Cover Flow Layout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43130E311CEE064600FFAC9D;
+			productRefGroup = 43130E3B1CEE064600FFAC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43130E391CEE064600FFAC9D /* Cover Flow Layout */,
+				43130E521CEE064600FFAC9D /* Cover Flow LayoutTests */,
+				43130E5D1CEE064600FFAC9D /* Cover Flow LayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43130E381CEE064600FFAC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43130E4D1CEE064600FFAC9D /* LaunchScreen.storyboard in Resources */,
+				43130E4A1CEE064600FFAC9D /* Assets.xcassets in Resources */,
+				43130E481CEE064600FFAC9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43130E511CEE064600FFAC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43130E5C1CEE064600FFAC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43130E361CEE064600FFAC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43130E451CEE064600FFAC9D /* ViewController.m in Sources */,
+				43130E421CEE064600FFAC9D /* AppDelegate.m in Sources */,
+				43130E3F1CEE064600FFAC9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43130E4F1CEE064600FFAC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43130E581CEE064600FFAC9D /* Cover_Flow_LayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43130E5A1CEE064600FFAC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43130E631CEE064600FFAC9D /* Cover_Flow_LayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43130E551CEE064600FFAC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43130E391CEE064600FFAC9D /* Cover Flow Layout */;
+			targetProxy = 43130E541CEE064600FFAC9D /* PBXContainerItemProxy */;
+		};
+		43130E601CEE064600FFAC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43130E391CEE064600FFAC9D /* Cover Flow Layout */;
+			targetProxy = 43130E5F1CEE064600FFAC9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43130E461CEE064600FFAC9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43130E471CEE064600FFAC9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43130E4B1CEE064600FFAC9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43130E4C1CEE064600FFAC9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43130E651CEE064600FFAC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43130E661CEE064600FFAC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43130E681CEE064600FFAC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cover Flow Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vectura.Cover-Flow-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43130E691CEE064600FFAC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cover Flow Layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vectura.Cover-Flow-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43130E6B1CEE064600FFAC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cover Flow LayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vectura.Cover-Flow-LayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cover Flow Layout.app/Cover Flow Layout";
+			};
+			name = Debug;
+		};
+		43130E6C1CEE064600FFAC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cover Flow LayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vectura.Cover-Flow-LayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cover Flow Layout.app/Cover Flow Layout";
+			};
+			name = Release;
+		};
+		43130E6E1CEE064600FFAC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cover Flow LayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vectura.Cover-Flow-LayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cover Flow Layout";
+			};
+			name = Debug;
+		};
+		43130E6F1CEE064600FFAC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cover Flow LayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vectura.Cover-Flow-LayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cover Flow Layout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43130E351CEE064600FFAC9D /* Build configuration list for PBXProject "Cover Flow Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43130E651CEE064600FFAC9D /* Debug */,
+				43130E661CEE064600FFAC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43130E671CEE064600FFAC9D /* Build configuration list for PBXNativeTarget "Cover Flow Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43130E681CEE064600FFAC9D /* Debug */,
+				43130E691CEE064600FFAC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43130E6A1CEE064600FFAC9D /* Build configuration list for PBXNativeTarget "Cover Flow LayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43130E6B1CEE064600FFAC9D /* Debug */,
+				43130E6C1CEE064600FFAC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43130E6D1CEE064600FFAC9D /* Build configuration list for PBXNativeTarget "Cover Flow LayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43130E6E1CEE064600FFAC9D /* Debug */,
+				43130E6F1CEE064600FFAC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43130E321CEE064600FFAC9D /* Project object */;
+}
